@@ -1,5 +1,6 @@
 {
-  "name": "drum",
+  "homepage": "https://ozubergz.github.io/drum-machine/",
+  "name": "drum-machine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "deploy": "yarn build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
