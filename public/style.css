@@ -1,0 +1,85 @@
+body {
+  background-color: lightslategray !important;
+  font-family: 'Exo 2', sans-serif !important;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 150px;
+  height: 10px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 5px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 5px;
+  height: 20px;
+  background-color: rgb(253, 192, 168);
+  cursor: pointer;
+}
+
+#drum-machine {
+  margin-top: 150px;
+}
+
+.label {
+  text-align: right;
+  margin-top: -30px;
+  color: white;
+}
+
+.controllers {
+  border: 5px solid lightsalmon;
+  background-color: rgb(49, 49, 49);
+  padding: 30px;
+  width: 490px !important;
+  height: 250px;
+}
+
+.control-pads {
+  float: left;
+}
+
+.drum-pad:active {
+  background-color: lightpink !important;
+  transform: translateY(2px);
+}
+
+.playing {
+  background-color: lightpink !important;
+  transform: translateY(2px);
+}
+
+.display-bank {
+  margin-right: 30px;
+  margin-top: 10px;
+  float: right;
+}
+
+.control-display {
+  border: 3px solid gray;
+  background-color: lightblue;
+  padding-top: 5px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+}
+
+.control-slider {
+  margin-top: 40px;
+}
